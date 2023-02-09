@@ -3,3 +3,4 @@
 2. Groups - Write a script that prints all the groups the current user is part of: groups
 3. New owner - Write a script that changes the owner of the file hello to the user betty : sudo chown betty hello
 4. Empty! - Write a script that creates an empty file called hello : touch hello
+5. Execute - Write a script that adds execute permission to the owner of the file hello : chown 744 ./hello
